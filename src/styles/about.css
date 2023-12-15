@@ -1,0 +1,63 @@
+/* About.css */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+  
+  .about-text h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .about-text p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .ngo-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center-align the image vertically */
+  }
+  
+  .ngo-image-container img {
+    max-width: 80%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .about-text {
+      flex: 1 0 100%; /* Allow text to take full width on smaller screens */
+    }
+  
+    .ngo-image-container {
+      margin-top: 20px; /* Add space between text and image on smaller screens */
+    }
+  }
+  

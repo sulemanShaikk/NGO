@@ -1,0 +1,44 @@
+/* OurMission.css */
+.mission-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .mission, .vision, .values {
+    background-color: #101010;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .mission h1, .vision h1, .values h1 {
+    color: #626060;
+    font-size: 1.8rem;
+  }
+  
+  .mission p, .vision p {
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values li {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+@media screen and (max-width: 768px) {
+    .mission-container {
+      padding: 10px;
+    }
+  }
+  
